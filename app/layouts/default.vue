@@ -4,16 +4,13 @@
     <main class="container">
       <slot />
     </main>
-    <footer>
-      <div class="container">
-        <p>&copy; 2026 Manuka. All rights reserved.</p>
-      </div>
-    </footer>
+    <AppFooter />
   </div>
 </template>
 
 <script setup>
 import Nav from '~/components/Nav.vue'
+import AppFooter from '~/components/AppFooter.vue'
 </script>
 
 <style scoped>
