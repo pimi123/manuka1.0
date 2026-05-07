@@ -35,11 +35,6 @@ body {
   line-height: 1.6;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
 
 /* Navigation */
 nav {
@@ -72,9 +67,6 @@ nav ul {
 }
 
 /* Main content */
-main {
-  padding: 2rem 0;
-}
 
 /* Footer */
 footer {
