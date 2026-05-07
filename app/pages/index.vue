@@ -14,9 +14,14 @@
       </p>
     </div>
   </section>
+  <!-- <OurStory /> -->
+    <MainMenu />
 </template>
 
 <script setup>
+import MainMenu from '~/components/MainMenu.vue'
+import OurStory from '~/components/OurStory.vue'
+
 useHead({
   title: 'Home - Manuka'
 })
