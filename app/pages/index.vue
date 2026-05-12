@@ -16,11 +16,14 @@
   </section>
   <!-- <OurStory /> -->
     <MainMenu />
+    <MomentsSection />
+    <ContactForm />
 </template>
 
 <script setup>
 import MainMenu from '~/components/MainMenu.vue'
 import OurStory from '~/components/OurStory.vue'
+import ContactForm from '~/components/ContactForm.vue'
 
 useHead({
   title: 'Home - Manuka'
